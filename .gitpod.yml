@@ -1,4 +1,5 @@
 tasks:
   - command: |
       npm install -g nodemon
-      nodemon script.js
+      alias gitpod "node script.js"
+      node script.js
